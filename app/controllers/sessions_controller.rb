@@ -1,8 +1,7 @@
 class SessionsController < ApplicationController
   
   def provider_callback_handle
-    # handle signup/signin
-    
+    # handle create of users
     redirect_to root_path
   end
 

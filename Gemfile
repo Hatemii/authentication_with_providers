@@ -64,14 +64,17 @@ group :development do
   # gem "spring"
 end
 
-gem 'omniauth-auth0'
-gem 'omniauth-oauth2', '~> 1.8'
-gem 'omniauth-rails_csrf_protection', '~> 1.0', '>= 1.0.1'
-gem 'dotenv-rails', '~> 2.8', '>= 2.8.1'
+gem 'omniauth'
+gem 'omniauth-oauth2'
+gem 'omniauth-rails_csrf_protection'
+gem 'dotenv-rails'
 
-gem 'omniauth-google-oauth2', '~> 1.1', '>= 1.1.1'
+gem 'omniauth-google-oauth2'
 gem 'omniauth-github'
+gem 'omniauth-auth0'
 gem 'omniauth-twitter2'
+gem 'omniauth-linkedin'
+gem "omniauth-linkedin-oauth2"
 
 gem 'byebug'
 
